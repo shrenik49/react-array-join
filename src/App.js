@@ -1,7 +1,7 @@
 import "./styles.css";
 
 function Books({ arr }) {
-  console.log(arr); // 👉️ ['A', 'B', 'C', 'D']
+  console.log(arr);
   return (
     <div>
       <h1>{arr.join()}</h1>
